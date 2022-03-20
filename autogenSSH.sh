@@ -17,4 +17,4 @@ ssh-add ~/.ssh/id_ed25519
 clip < ~/.ssh/id_ed25519.pub
 
 # 5. Вставляем его в созданый на гитхабе ssh. (сообщение)
-read -n1 -r -p "key copied in buffer to paste on github" key
+read -n1 -r -p "key copied in buffer to paste on github. Follow instructions here: https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account" key
