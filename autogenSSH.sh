@@ -1,7 +1,10 @@
 # Всё выполняем в git-bash:
 
+# 0. Запрашиваем почту
+read -n50 -r -p "Enter your email (connected to git accaunt): " user_email
+
 # 1. Генерируем ключ
-ssh-keygen -t ed25519 -C "your_email@example.com" 
+ssh-keygen -t ed25519 -C $user_email
 # (enter, enter, enter, enter)
 
 # 2. Проверяем, запущен ли клиент ssh на локальной машине:
